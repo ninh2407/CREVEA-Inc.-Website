@@ -1,0 +1,183 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav {
+	display: flex;
+	flex-direction: row;
+	background-color: #005eff;
+}
+
+#button0 {
+	display: none;
+}
+
+#menu-mb {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+#menu-mb li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#menu-mb li a:hover {
+	color: black;
+}
+
+#active-mb {
+	color: black !important;
+}
+
+#brand {
+	width: 38%;
+	height: 65px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+#icon-search {
+	display: none;
+}
+
+#menu {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	height: 65px; 
+	background-color: #005eff;
+	padding: 0px;
+	width: 60%;
+
+}
+#menu li a {
+	padding: 0px 7px;
+	line-height: 65px;
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+}
+#menu li a:hover {
+	color: #ff8c00 !important;
+}
+#active {
+	color: #ff8c00 !important;
+}
+
+.title {
+	font-weight: bold;
+	text-align: justify;
+}
+.content {
+	text-align: justify;
+}
+
+.box {
+    text-align: center;
+    font-size: 70px;
+}
+
+.gachngang {
+    width: 50px;
+    height: 5px;
+    background-color: #0f83ff;
+    margin: 50px auto;
+}
+
+.content-box1 {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.item-box {
+    width: 50%;
+    
+}
+
+#footer1 {
+	background-color: black;
+	color: white;
+}
+#footer1 a {
+	color: white;
+}
+#footer1 a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*Show on ipad*/
+@media only screen and (max-width: 768px) {
+
+	#content-ob {
+		padding-top: 20px;
+		padding-left: 50px;
+		font-size: 16px;
+	}
+	
+	#icon1 {
+		width:30px; 
+		height:30px; 
+		position: absolute; 
+		left: 5px; 
+		top: 75px; 
+		display: inline-block;
+	}
+	
+	#icon2 {
+		width:30px; 
+		height:30px; 
+		position: absolute; 
+		left: 5px; 
+		top: 155px; 
+		display: inline-block;
+	}
+
+	#footer1 {
+		width: 95% !important;
+	}
+	.section {
+		width: 90% !important;
+	}
+
+}
+
+/* Show on mobile*/
+@media only screen and (max-width: 576px) {
+	
+	#nav {
+		background-color: white;
+		justify-content: space-around;
+	}
+
+	#brand {
+		color: #005eff;
+		font-size: 20px;
+	}
+	
+	#menu {
+		display: none;
+	}
+
+
+	#button0 {
+		display: inline;
+	}
+
+	#icon-search {
+		display: inline;
+		height: 65px;	
+		line-height: 65px;	
+	}
+
+}
+
